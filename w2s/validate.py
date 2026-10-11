@@ -21,6 +21,12 @@ try:
 except ImportError:
     yaml = None
 
+if sys.platform == "win32" and sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 
 # ---------------------------------------------------------------------------
 # Schemas

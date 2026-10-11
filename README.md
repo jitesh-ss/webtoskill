@@ -108,7 +108,7 @@ The fastest path from zero to a working compiled skill.
 ### 1. Install w2s into your agent
 
 ```bash
-git clone https://github.com/rishi-ie/web2skill.git
+git clone https://github.com/jitesh-ss/webtoskill.git
 mkdir -p ~/.claude/skills
 cp -r web2skill/w2s ~/.claude/skills/web2skill
 ```
@@ -214,7 +214,7 @@ offers."
 ### Claude Code
 
 ```bash
-git clone https://github.com/rishi-ie/web2skill.git
+git clone https://github.com/jitesh-ss/webtoskill.git
 mkdir -p ~/.claude/skills
 cp -r web2skill/w2s ~/.claude/skills/web2skill
 ```
@@ -226,7 +226,7 @@ Restart Claude Code. The `web2skill` skill is now available — you should see i
 Codex CLI looks for skills in `~/.codex/skills/`:
 
 ```bash
-git clone https://github.com/rishi-ie/web2skill.git
+git clone https://github.com/jitesh-ss/webtoskill.git
 mkdir -p ~/.codex/skills
 cp -r web2skill/w2s ~/.codex/skills/web2skill
 ```
